@@ -95,7 +95,7 @@ function Dashboard() {
                 />
                 <Title>PokePals</Title>
                 <Links>
-                    <a href={"https://github.com/duiker101/reddit-pokepals"}>
+                    <a href={"https://github.com/christianwong/reddit-pokepals"}>
                         GitHub
                     </a>
                 </Links>
