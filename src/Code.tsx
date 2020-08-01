@@ -69,8 +69,8 @@ const Code: React.FC<Props> = props => {
     const {post, code} = props;
     const [image, setImage] = useState<string | null>(null);
     const {visited, setVisited} = useVisited();
-    const prettyCode =
-        code.slice(0, 4) + " " + code.slice(4, 8) + " " + code.slice(8, 12);
+    //const prettyCode =
+        //code.slice(0, 4) + " " + code.slice(4, 8) + " " + code.slice(8, 12);
 
     useEffect(() => {
         QRCode.toDataURL(code).then(url => {
