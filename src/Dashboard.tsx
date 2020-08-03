@@ -41,10 +41,6 @@ const Header = styled.div`
     align-items: center;
 `;
 
-const Links = styled.div`
-    text-align: right;
-`;
-
 const Title = styled.div`
     text-align: center;
     font-weight: 700;
