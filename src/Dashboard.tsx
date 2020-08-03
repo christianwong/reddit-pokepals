@@ -94,11 +94,6 @@ function Dashboard() {
                     style={{width: 100}}
                 />
                 <Title>PokePals</Title>
-                <Links>
-                    <a href={"https://github.com/christianwong/reddit-pokepals"}>
-                        GitHub
-                    </a>
-                </Links>
             </Header>
             <Tiles>
                 {Object.entries(codes).map(([code, post]) => (
