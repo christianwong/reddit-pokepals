@@ -15,6 +15,13 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
 
+      - name: Replace GTM_ID
+        uses: shitiomatic/str-replace@master
+        with:
+          find: "##GTM_ID##"
+          replace: ${{ secrets.GTM_ID }}
+          include: "public/"
+
       - name: Install Dependencies
         run: yarn
 
